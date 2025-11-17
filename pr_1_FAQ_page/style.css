@@ -80,18 +80,24 @@ a {
     hr {
         margin-top: 40px;
         margin-bottom: 40px;
-        border: 1px solid #D2D5DA;
+        
+        border: none;
+        height: 1px;
+        background-color: #D2D5DA;
     }
 }
 
 @media screen and (min-width: 769px) {
     hr {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: 1px solid #D2D5DA;
+        margin-top: 40px;
+        margin-bottom: 40px;
 
-    margin-left: 0;
-    margin-right: -80px;
-    /* «выползает» за правую границу */
-}
+        border: none;
+        height: 1px;
+        background-color: #D2D5DA;
+
+        margin-left: 0;
+        margin-right: -80px;
+        /* «выползает» за правую границу */
+    }
 }
