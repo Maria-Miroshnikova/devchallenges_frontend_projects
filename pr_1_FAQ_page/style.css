@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+.header {
+    background-color: white;
+    font-weight: semibold;
+    text-align: center;
+    color: #030616;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.content {
+    background-color: #F8FAFC;
+    min-height: 100dvh;
+}
+
+.content-inner {
+    padding-top: 60px;
+    color: #030616;
+
+
+    max-width: 644px;
+    /* ограничиваем ширину контента */
+    margin: 40px auto;
+    /* авто-отступы слева и справа = центрирование */
+
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+li {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+ul,
+ol {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    list-style-position: outside;
+    margin-left: 1.8rem;
+    /* маркеры остаются внутри области текста */
+
+    line-height: 2;
+}
+
+a {
+    color: #4E80EE;
+}
+
+@media screen and (max-width: 768px) {
+    hr {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border: 1px solid #D2D5DA;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #D2D5DA;
+
+    margin-left: 0;
+    margin-right: -80px;
+    /* «выползает» за правую границу */
+}
+}
